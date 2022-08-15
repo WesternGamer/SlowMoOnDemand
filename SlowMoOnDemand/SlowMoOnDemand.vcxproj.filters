@@ -5,9 +5,7 @@
     <ClCompile Include="Keyboard.cpp">
       <Filter>Keyboard</Filter>
     </ClCompile>
-    <ClCompile Include="Pools.cpp">
-      <Filter>Pools</Filter>
-    </ClCompile>
+    <ClCompile Include="Config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h">
@@ -28,9 +26,6 @@
     <ClInclude Include="Keyboard.h">
       <Filter>Keyboard</Filter>
     </ClInclude>
-    <ClInclude Include="Pools.h">
-      <Filter>Pools</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -41,9 +36,6 @@
     </Filter>
     <Filter Include="Scripthook">
       <UniqueIdentifier>{8837e21e-7397-4bb5-8dd3-e86d845b9215}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Pools">
-      <UniqueIdentifier>{6102619f-3d7c-46db-a5cf-690fcb5f7011}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

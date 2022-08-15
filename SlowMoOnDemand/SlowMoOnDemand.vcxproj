@@ -7,14 +7,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Config.h" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Pools.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="enums.h" />
     <ClInclude Include="Keyboard.h" />
-    <ClInclude Include="Pools.h" />
     <ClInclude Include="Scripthook.h" />
     <ClInclude Include="Invoker.h" />
     <ClInclude Include="natives.h" />
@@ -24,9 +23,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{f335b6a8-cd28-4c53-9171-5f46334534a6}</ProjectGuid>
-    <RootNamespace>RDR2ASIScriptTemplate</RootNamespace>
+    <RootNamespace>SlowMoOnDemand</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>RDR2ASIScriptTemplate</ProjectName>
+    <ProjectName>SlowMoOnDemand</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
